@@ -27,6 +27,9 @@ h1 {
 	width: 1100px;
 	max-width: 1100px;
 	padding: 10px;
+<<<<<<< HEAD
 	max-height: calc(100vh - 220px);
 	overflow: auto;
+=======
+>>>>>>> c93eaed (Добавлены три файла)
 }
