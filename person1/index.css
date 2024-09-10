@@ -1,0 +1,30 @@
+body {
+	display: flex;
+	justify-content: center;
+}
+
+.container {
+	padding: 10px;
+}
+
+h1 {
+	text-align: center;
+	color: #222;
+}
+
+.input-contain{
+	text-align: center;
+	width: 1080px;
+	max-width: 1080px;
+	padding: 20px;
+	border: 1px solid #d1d1d1;
+	background-color: #e3e0e0;
+}
+
+.text-contain {
+	margin-top: 10px;
+	border: 1px solid #d1d1d1;
+	width: 1100px;
+	max-width: 1100px;
+	padding: 10px;
+}
