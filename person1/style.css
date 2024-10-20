@@ -1,3 +1,11 @@
 #fileContent {
 	font-family: 'Courier New', Courier, monospace
 }
+
+h1 {
+	color: green;
+}
+
+body {
+	background-color: #f0f0f0;
+}
