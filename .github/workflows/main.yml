@@ -27,4 +27,4 @@ jobs:
 
       # Шаг 3: Запуск тестов
       - name: Run tests
-        run: npx test
+        run: npm test
