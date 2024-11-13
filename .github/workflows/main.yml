@@ -42,3 +42,5 @@ jobs:
       - name: Documentation
         run: npx jsdoc -c jsdoc.json
 
+      - name: List directory contents
+        run: ls -R
