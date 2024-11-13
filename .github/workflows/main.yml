@@ -20,6 +20,11 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      # Шаг 2: Запуск тестов
+        
+      # Шаг 2: Устанавливаем зависимости
+      - name: Install dependencies
+        run: npm install
+
+      # Шаг 3: Запуск тестов
       - name: Run tests
-        run: echo "Запуск тестов..."
+        run: npm test
