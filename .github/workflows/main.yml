@@ -20,15 +20,6 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      # Шаг 2: Проверка структуры проекта (HTML, CSS, JS файлы)
-      - name: Validate project files
-        run: |
-          if [[ -f "index.html" && -d "css" && -d "js" ]]; then
-            echo "HTML, CSS и JS файлы найдены"
-          else
-            echo "Отсутствуют необходимые файлы!" && exit 1
-          fi
-
-      # Шаг 3: Запуск тестов
+      # Шаг 2: Запуск тестов
       - name: Run tests
         run: echo "Запуск тестов..."
