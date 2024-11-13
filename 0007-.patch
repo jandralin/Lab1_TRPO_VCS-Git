@@ -1,0 +1,61 @@
+From 7f12bdb000a0e079e41f37c390ebde58a480a69e Mon Sep 17 00:00:00 2001
+From: Anastasia Vasyukova <a.vas02@bk.ru>
+Date: Tue, 10 Sep 2024 22:38:16 +0300
+Subject: [PATCH 7/7] =?UTF-8?q?=D0=94=D0=BE=D0=B1=D0=B0=D0=B2=D0=BB=D0=B5?=
+ =?UTF-8?q?=D0=BD=D1=8B=20=D1=82=D1=80=D0=B8=20=D1=84=D0=B0=D0=B9=D0=BB?=
+ =?UTF-8?q?=D0=B0?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+---
+ person1/index.css  | 3 +++
+ person1/index.html | 8 ++++++++
+ 2 files changed, 11 insertions(+)
+
+diff --git a/person1/index.css b/person1/index.css
+index 9491489..e5eb381 100644
+--- a/person1/index.css
++++ b/person1/index.css
+@@ -27,6 +27,9 @@ h1 {
+ 	width: 1100px;
+ 	max-width: 1100px;
+ 	padding: 10px;
++<<<<<<< HEAD
+ 	max-height: calc(100vh - 220px);
+ 	overflow: auto;
++=======
++>>>>>>> c93eaed (Добавлены три файла)
+ }
+\ No newline at end of file
+diff --git a/person1/index.html b/person1/index.html
+index 0f3ee6b..772c56f 100644
+--- a/person1/index.html
++++ b/person1/index.html
+@@ -9,7 +9,11 @@
+ <body>
+ 	
+     <div class="container">
++<<<<<<< HEAD
+ 			<h2>TEXT FILE READER</h2>
++=======
++			<h1>Text File Reader</h1>
++>>>>>>> c93eaed (Добавлены три файла)
+ 
+ 			<div class="input-contain">
+ 				<input type="file" id="fileInput" accept=".txt">
+@@ -20,6 +24,10 @@
+ 			</div>
+ 			
+ 		</div>
++<<<<<<< HEAD
+     <script src="./index.js" defer></script>
++=======
++    <script src="./index.js"></script>
++>>>>>>> c93eaed (Добавлены три файла)
+ </body>
+ </html>
+\ No newline at end of file
+-- 
+2.41.0.windows.1
+

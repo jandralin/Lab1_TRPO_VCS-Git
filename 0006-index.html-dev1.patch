@@ -1,0 +1,29 @@
+From cfb93b1083ff25fb46578f38c24a0656ca3624dd Mon Sep 17 00:00:00 2001
+From: Anastasia Vasyukova <a.vas02@bk.ru>
+Date: Sat, 26 Oct 2024 02:54:04 +0300
+Subject: [PATCH 6/7] =?UTF-8?q?=D0=B8=D0=B7=D0=BC=D0=B5=D0=BD=D0=B5=D0=BD?=
+ =?UTF-8?q?=D0=B8=D0=B5=20=D0=B2=20index.html=20=D0=B2=20dev1?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+---
+ person1/index.html | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/person1/index.html b/person1/index.html
+index 6ee34e3..cfe1258 100644
+--- a/person1/index.html
++++ b/person1/index.html
+@@ -20,6 +20,6 @@
+ 			</div>
+ 			
+ 		</div>
+-    <script src="./index.js"></script>
++    <script src="./index.js" defer></script>
+ </body>
+ </html>
+\ No newline at end of file
+-- 
+2.41.0.windows.1
+

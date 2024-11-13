@@ -1,0 +1,29 @@
+From 597e37918917b7b2bfc75dca528563e9e47e4a5c Mon Sep 17 00:00:00 2001
+From: Anastasia Vasyukova <a.vas02@bk.ru>
+Date: Sat, 26 Oct 2024 02:42:25 +0300
+Subject: [PATCH 5/7] =?UTF-8?q?=D0=B8=D0=B7=D0=BC=D0=B5=D0=BD=D0=B5=D0=BD?=
+ =?UTF-8?q?=D0=B8=D0=B5=20=D0=B2=20index.html?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+---
+ person1/index.html | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/person1/index.html b/person1/index.html
+index 6ee34e3..7588780 100644
+--- a/person1/index.html
++++ b/person1/index.html
+@@ -9,7 +9,7 @@
+ <body>
+ 	
+     <div class="container">
+-			<h1>TEXT FILE READER</h1>
++			<h2>TEXT FILE READER</h2>
+ 
+ 			<div class="input-contain">
+ 				<input type="file" id="fileInput" accept=".txt">
+-- 
+2.41.0.windows.1
+

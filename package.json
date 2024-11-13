@@ -1,0 +1,17 @@
+{
+  "name": "lab1_trpo_vcs-git",
+  "version": "1.0.0",
+  "description": "Лаб. работа по ТРПО № 1 | система контроля версий git | Титов",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest-environment-jsdom": "^29.7.0"
+  },
+   "jest": {
+     "testEnvironment": "jest-environment-jsdom"
+   }
+}
