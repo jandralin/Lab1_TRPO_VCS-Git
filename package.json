@@ -9,8 +9,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "jest": "^29.7.0",
     "jest-environment-jsdom": "^29.7.0",
-    "jest": "^29.7.0"
+    "jsdoc": "^4.0.4"
   },
   "jest": {
     "testEnvironment": "jest-environment-jsdom"
