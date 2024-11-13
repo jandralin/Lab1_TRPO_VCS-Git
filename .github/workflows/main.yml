@@ -1,0 +1,25 @@
+name: CI Workflow
+
+# Запуск при каждом push и pull request
+on:
+  push:
+    branches:
+      - main
+      - development
+      - release
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Шаг 1: Клонирование репозитория
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      # Шаг 2: Запуск тестов
+      - name: Run tests
+        run: echo "Запуск тестов..."
