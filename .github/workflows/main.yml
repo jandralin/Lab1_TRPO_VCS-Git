@@ -31,3 +31,8 @@ jobs:
       # Шаг 3: Запуск тестов
       - name: Run tests
         run: npm test
+        
+     # Шаг 4: Запуск тестов
+       - name: Documentation
+       run: npx jsdoc -c jsdoc.json
+
