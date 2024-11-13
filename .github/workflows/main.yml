@@ -34,7 +34,7 @@ jobs:
 
         
      # Шаг 4: Запуск тестов
-      - name: Run tests
+      - name: Fix permissions for Doc
         run: chmod +x node_modules/.bin/jsdoc
         
       - name: Documentation
