@@ -25,6 +25,9 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Fix permissions for Jest
+        run: chmod +x ./node_modules/.bin/jest  # Установка прав на выполнение для Jest
+
       # Шаг 3: Запуск тестов
       - name: Run tests
         run: npm test
