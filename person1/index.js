@@ -20,7 +20,7 @@ fileInput.addEventListener('change', function(event) {
 });
 
 function development() {
- console.log("Development b")
+ console.log("Development branch")
 }
 
 development()
