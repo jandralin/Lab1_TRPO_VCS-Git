@@ -36,6 +36,8 @@ jobs:
      # Шаг 4: Запуск тестов
       - name: Fix permissions for Doc
         run: chmod +x node_modules/.bin/jsdoc
+      - name: Create docs directory
+        run: mkdir -p ./docs
         
       - name: Documentation
         run: npx jsdoc -c jsdoc.json
