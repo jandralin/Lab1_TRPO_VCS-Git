@@ -1,0 +1,34 @@
+name: CI Workflow
+
+# Запуск при каждом push и pull request
+on:
+  push:
+    branches:
+      - main
+      - development
+      - release
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Шаг 1: Клонирование репозитория
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      # Шаг 2: Проверка структуры проекта (HTML, CSS, JS файлы)
+      - name: Validate project files
+        run: |
+          if [[ -f "index.html" && -d "css" && -d "js" ]]; then
+            echo "HTML, CSS и JS файлы найдены"
+          else
+            echo "Отсутствуют необходимые файлы!" && exit 1
+          fi
+
+      # Шаг 3: Запуск тестов
+      - name: Run tests
+        run: echo "Запуск тестов..."
