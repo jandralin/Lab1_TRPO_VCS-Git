@@ -4,7 +4,8 @@
   "description": "Лаб. работа по ТРПО № 1 | система контроля версий git | Титов",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "generate-docs": "npx jsdoc -c jsdoc.json"
   },
   "author": "",
   "license": "ISC",
